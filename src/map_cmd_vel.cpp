@@ -24,7 +24,7 @@ void cmd_vel_callback(const geometry_msgs::Twist &twist_msg) {
   double r = 0.045; 
   
   // amplitude
-  double a = 5000;
+  double a = 2000;
 
   // maximum value for /motor_pwm
   int MAX_PW = 32767;
