@@ -63,7 +63,7 @@ ros::NodeHandle nh;
 ros::NodeHandle pnh("~");
   
   //parameter
-  pnh.param("amplitude", amplitude, 2000.0);
+  pnh.param("amplitude", amplitude, 1500.0);
   ROS_INFO("[%s] param:%.1f", ros::this_node::getName().c_str(), amplitude);
   
   //publish
